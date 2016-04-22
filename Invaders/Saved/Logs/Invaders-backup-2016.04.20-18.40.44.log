@@ -1,0 +1,167 @@
+﻿Log file open, 04/20/16 18:35:17
+LogConsoleManager:Warning: Console object named 'D3D12.EnableMultiEngine' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+LogConsoleManager:Warning: Console object named 'D3D12.CommandListBatchingMode' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+LogModuleManager:Warning: ModuleManager: Module 'HTTPChunkInstaller' not found - its StaticallyLinkedModuleInitializers function is null.
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-124960707) SRandInit(-124960705).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.088080
+LogInit: Version: 4.11.1-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Apr 20 2016 14:36:16
+LogInit: Compiled with Visual C++: 19.00.23918.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Development/Invaders/Builds/WindowsNoEditor/Invaders/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.20-09.35.17:116][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2016.04.20-09.35.17:116][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2016.04.20-09.35.17:121][  0]LogInit: Computer: DESKTOP-REAU86E
+[2016.04.20-09.35.17:121][  0]LogInit: User: Baptiste
+[2016.04.20-09.35.17:121][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.20-09.35.17:121][  0]LogInit: High frequency timer resolution =2.533190 MHz
+[2016.04.20-09.35.17:121][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.20-09.35.17:121][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2016.04.20-09.35.17:121][  0]LogMemory: Process Physical Memory: 65.95 MB used, 65.95 MB peak
+[2016.04.20-09.35.17:121][  0]LogMemory: Process Virtual Memory: 83.99 MB used, 83.99 MB peak
+[2016.04.20-09.35.17:121][  0]LogMemory: Physical Memory: 2832.70 MB used, 8111.03 MB total
+[2016.04.20-09.35.17:121][  0]LogMemory: Virtual Memory: 284.35 MB used, 134217728.00 MB total
+[2016.04.20-09.35.17:900][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.04.20-09.35.18:147][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2016.04.20-09.35.18:298][  0]LogUObjectArray: 25716 objects as part of root set at end of initial load.
+[2016.04.20-09.35.18:298][  0]LogUObjectAllocator: 5255096 out of 0 bytes used by permanent object pool.
+[2016.04.20-09.35.18:298][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.20-09.35.18:298][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.20-09.35.18:298][  0]LogModuleManager:Warning: ModuleManager: Module 'XAudio2' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.04.20-09.35.18:327][  0]LogEngine: Initializing Engine...
+[2016.04.20-09.35.18:334][  0]LogInit: Texture streaming: Disabled
+[2016.04.20-09.35.18:334][  0]LogModuleManager:Warning: ModuleManager: Module 'MessagingRpc' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.04.20-09.35.18:334][  0]LogModuleManager:Warning: ModuleManager: Module 'PortalRpc' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.04.20-09.35.18:334][  0]LogModuleManager:Warning: ModuleManager: Module 'PortalServices' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.04.20-09.35.18:398][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
+[2016.04.20-09.35.18:398][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
+[2016.04.20-09.35.18:444][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2016.04.20-09.35.18:444][  0]LogMemory: Process Physical Memory: 121.64 MB used, 121.64 MB peak
+[2016.04.20-09.35.18:444][  0]LogMemory: Process Virtual Memory: 183.05 MB used, 183.05 MB peak
+[2016.04.20-09.35.18:444][  0]LogMemory: Physical Memory: 2880.50 MB used, 8111.03 MB total
+[2016.04.20-09.35.18:444][  0]LogMemory: Virtual Memory: 407.07 MB used, 134217728.00 MB total
+[2016.04.20-09.35.18:444][  0]LogMemory: 
+[2016.04.20-09.35.18:444][  0]LogMemory: Allocator Stats for binned:
+[2016.04.20-09.35.18:444][  0]LogMemory: Current Memory 129.37 MB used, plus 5.13 MB waste
+[2016.04.20-09.35.18:444][  0]LogMemory: Peak Memory 133.33 MB used, plus 2.61 MB waste
+[2016.04.20-09.35.18:444][  0]LogMemory: Current OS Memory 134.50 MB, peak 135.94 MB
+[2016.04.20-09.35.18:444][  0]LogMemory: Current Waste 0.98 MB, peak 1.01 MB
+[2016.04.20-09.35.18:444][  0]LogMemory: Current Used 129.37 MB, peak 133.33 MB
+[2016.04.20-09.35.18:444][  0]LogMemory: Current Slack 4.15 MB
+[2016.04.20-09.35.18:444][  0]LogMemory: Allocs       112906 Current /  727592 Total
+[2016.04.20-09.35.18:444][  0]LogMemory: 
+[2016.04.20-09.35.18:444][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.04.20-09.35.18:444][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.04.20-09.35.18:444][  0]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.04.20-09.35.18:444][  0]LogMemory:         16         6         6      12846       210395      16      16     200K      184K        0K    100.00%
+[2016.04.20-09.35.18:444][  0]LogMemory:         32        11        11      16930        81809      17      32     529K      175K       50K     92.90%
+[2016.04.20-09.35.18:444][  0]LogMemory:         48         8         8       7709        40371      33      48     361K      151K       46K     91.02%
+[2016.04.20-09.35.18:444][  0]LogMemory:         64        18        18      17506        85386      49      64    1094K       58K      114K     90.10%
+[2016.04.20-09.35.18:444][  0]LogMemory:         80        10        10       7231        53842      65      80     564K       76K       39K     93.91%
+[2016.04.20-09.35.18:444][  0]LogMemory:         96         5         5       3278        32564      82      96     307K       13K       21K     93.44%
+[2016.04.20-09.35.18:444][  0]LogMemory:        112         5         6       2685        18365      98     112     293K       27K       15K     95.31%
+[2016.04.20-09.35.18:444][  0]LogMemory:        128        17        17       8454        21110     114     128    1056K       32K       40K     96.32%
+[2016.04.20-09.35.18:444][  0]LogMemory:        160        37        37      14989        57685     129     160    2342K       23K      202K     91.47%
+[2016.04.20-09.35.18:444][  0]LogMemory:        192        18        18       5671        27268     162     192    1063K       88K       80K     93.06%
+[2016.04.20-09.35.18:444][  0]LogMemory:        224        20        34       5376        35856     194     224    1176K      102K      126K     90.16%
+[2016.04.20-09.35.18:444][  0]LogMemory:        256         3         4        724        22390     226     256     181K       11K       16K     91.67%
+[2016.04.20-09.35.18:444][  0]LogMemory:        288         4         4        859         4614     258     288     241K       15K       14K     94.53%
+[2016.04.20-09.35.18:444][  0]LogMemory:        320         3         3        566         9999     290     320     176K       16K        5K     97.40%
+[2016.04.20-09.35.18:444][  0]LogMemory:        384        15        15       2400         7879     322     384     900K       57K       54K     94.38%
+[2016.04.20-09.35.18:444][  0]LogMemory:        448         4         4        452         3546     386     448     197K       59K       15K     94.14%
+[2016.04.20-09.35.18:444][  0]LogMemory:        512         4         4        463         1177     450     512     231K       25K       11K     95.70%
+[2016.04.20-09.35.18:444][  0]LogMemory:        576        17        17       1751         2288     514     576     984K       97K       29K     97.33%
+[2016.04.20-09.35.18:444][  0]LogMemory:        640         2         2        174          237     578     640     108K       20K        3K     97.66%
+[2016.04.20-09.35.18:444][  0]LogMemory:        704        16        16        363         1704     641     704     249K      774K       10K     99.02%
+[2016.04.20-09.35.18:444][  0]LogMemory:        768        10        11        248         1125     706     768     186K      452K        4K     99.38%
+[2016.04.20-09.35.18:444][  0]LogMemory:        896        11        12        232         1292     770     896     203K      500K       17K     97.59%
+[2016.04.20-09.35.18:444][  0]LogMemory:       1024         3         3        129          204     904    1024     129K       63K        4K     97.92%
+[2016.04.20-09.35.18:444][  0]LogMemory:       1168         3         3         87          288    1030    1168      99K       93K        5K     97.40%
+[2016.04.20-09.35.18:444][  0]LogMemory:       1360         4         4        157          542    1171    1360     208K       47K       18K     92.97%
+[2016.04.20-09.35.18:444][  0]LogMemory:       1632         9        10        349          606    1365    1632     556K       18K       38K     93.40%
+[2016.04.20-09.35.18:444][  0]LogMemory:       2048        10        10        200          692    1639    2048     400K      240K       45K     92.97%
+[2016.04.20-09.35.18:444][  0]LogMemory:       2336         3         3         64         1638    2050    2336     146K       46K       17K     91.15%
+[2016.04.20-09.35.18:444][  0]LogMemory:       2720         3         3         56          127    2339    2709     148K       44K       11K     94.27%
+[2016.04.20-09.35.18:444][  0]LogMemory:       3264         8         8        143          369    2730    3264     455K       55K       35K     93.16%
+[2016.04.20-09.35.18:444][  0]LogMemory:       4096        16        16        246          593    3266    4096     984K       40K      101K     90.14%
+[2016.04.20-09.35.18:444][  0]LogMemory:       4672         9         9        120          343    4102    4671     547K       28K       30K     94.79%
+[2016.04.20-09.35.18:444][  0]LogMemory:       5456        12        12        134          378    4675    5447     713K       55K       59K     92.32%
+[2016.04.20-09.35.18:444][  0]LogMemory:       6544        12        13        105          247    5459    6543     671K       96K       52K     93.23%
+[2016.04.20-09.35.18:444][  0]LogMemory:       8192         4         7         32          152    6555    8192     256K        0K       33K     87.11%
+[2016.04.20-09.35.18:444][  0]LogMemory:       9360         5         5         25           74    8224    9360     228K       92K       12K     96.25%
+[2016.04.20-09.35.18:444][  0]LogMemory:      10912         2         2          9           20    9383   10592      95K       33K        8K     93.75%
+[2016.04.20-09.35.18:444][  0]LogMemory:      13104         6         6         27           66   10976   13056     345K       39K       30K     92.19%
+[2016.04.20-09.35.18:444][  0]LogMemory:      16384         3         6         12           49   13120   16384     192K        0K       21K     89.06%
+[2016.04.20-09.35.18:445][  0]LogMemory:      21840        10        12         30           82   16400   20592     639K        1K      101K     84.22%
+[2016.04.20-09.35.18:445][  0]LogMemory:      32768         4         5          7           48   21952   32640     224K       32K       43K     83.20%
+[2016.04.20-09.35.18:445][  0]LogMemory:      49152         5         5         14           55       0   49152     672K      288K      129K     86.56%
+[2016.04.20-09.35.18:445][  0]LogMemory:      98304         2         3          8           21       0   88648     768K        0K      188K     75.52%
+[2016.04.20-09.35.18:445][  0]LogMemory: 
+[2016.04.20-09.35.18:445][  0]LogMemory: 25408K allocated in pools (with 4265K slack and 1891K waste). Efficiency 92.56%
+[2016.04.20-09.35.18:445][  0]LogMemory: Allocations 112862 Current / 727497 Total (in 377 pools)
+[2016.04.20-09.35.18:445][  0]LogMemory: 
+[2016.04.20-09.35.18:474][  0]LogModuleManager:Warning: ModuleManager: Module 'GameplayDebugger' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.04.20-09.35.18:475][  0]LogAIModule: Creating AISystem for world Entry
+[2016.04.20-09.35.18:644][  0]LogWorld: Game class is 'InvadersGameMode_BP_C'
+[2016.04.20-09.35.18:644][  0]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.04.20-09.35.18:647][  0]LogInit: WinSock: I am DESKTOP-REAU86E (192.168.0.16:0)
+[2016.04.20-09.35.18:648][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.04.20-09.35.18:682][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 30) at 2016.04.20-18.35.18
+[2016.04.20-09.35.18:682][  0]LogWorld: Bringing up level for play took: 0.034708
+[2016.04.20-09.35.18:683][  0]LogInit:Display: Game Engine Initialized.
+[2016.04.20-09.35.18:683][  0]LogLoad: Full Startup: 1.89 seconds (BP compile: 0.00 seconds)
+[2016.04.20-09.35.18:683][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.20-09.37.36:682][140]LogNet: NotifyAcceptingConnection: Server Entry accept
+[2016.04.20-09.37.36:748][140]LogNet: NotifyAcceptedConnection: Name: Entry, TimeStamp: 04/20/16 18:37:36, [UNetConnection] RemoteAddr: 127.0.0.1:65470, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.04.20-09.37.36:748][140]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65470, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.04.20-09.37.36:803][141]LogNet: NotifyAcceptingChannel Control 0 server World /Engine/Maps/Entry.Entry: Accepted
+[2016.04.20-09.37.36:804][141]LogNet: Remote platform little endian=1
+[2016.04.20-09.37.36:804][141]LogNet: This platform little endian=1
+[2016.04.20-09.37.36:813][141]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: invaders, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 37019614
+[2016.04.20-09.37.36:869][143]LogNet: Login request: /Game/Maps/1v1v1 userId: Invalid
+[2016.04.20-09.37.36:936][145]LogNet: Client netspeed is 10000
+[2016.04.20-09.37.37:572][164]LogNet: Join request: /Game/Maps/1v1v1?SplitscreenCount=1
+[2016.04.20-09.37.38:163][164]LogNet: Join succeeded: 256
+[2016.04.20-09.39.51:674][201]LogActor:Warning: NPCProjectile /Engine/Maps/Entry.Entry:PersistentLevel.NPCProjectile_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-09.39.53:768][262]LogActor:Warning: NPCProjectile /Engine/Maps/Entry.Entry:PersistentLevel.NPCProjectile_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-09.39.58:526][406]LogActor:Warning: NPCProjectile /Engine/Maps/Entry.Entry:PersistentLevel.NPCProjectile_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-09.40.01:014][481]LogActor:Warning: NPCProjectile /Engine/Maps/Entry.Entry:PersistentLevel.NPCProjectile_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-09.40.03:078][543]LogActor:Warning: NPCProjectile /Engine/Maps/Entry.Entry:PersistentLevel.NPCProjectile_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.20-09.40.04:044][572]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2016.04.20-09.40.04:044][572]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65470, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: InvadersController_0, Owner: InvadersController_0
+[2016.04.20-09.40.04:044][572]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65470, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: InvadersController_0, Owner: InvadersController_0, Channels: 7, Time: 2016.04.20-09.40.04
+[2016.04.20-09.40.04:044][572]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65470, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: InvadersController_0, Owner: InvadersController_0
+[2016.04.20-09.40.15:371][909]LogNet: NotifyAcceptingConnection: Server Entry accept
+[2016.04.20-09.40.15:371][909]LogNet: NotifyAcceptedConnection: Name: Entry, TimeStamp: 04/20/16 18:40:15, [UNetConnection] RemoteAddr: 127.0.0.1:51578, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.04.20-09.40.15:371][909]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51578, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2016.04.20-09.40.15:603][916]LogNet: NotifyAcceptingChannel Control 0 server World /Engine/Maps/Entry.Entry: Accepted
+[2016.04.20-09.40.15:603][916]LogNet: Remote platform little endian=1
+[2016.04.20-09.40.15:603][916]LogNet: This platform little endian=1
+[2016.04.20-09.40.15:603][916]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 0, ProjectName: invaders, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 37019614
+[2016.04.20-09.40.15:636][917]LogNet: Login request: /Game/Maps/1v1v1 userId: Invalid
+[2016.04.20-09.40.15:668][918]LogNet: Client netspeed is 10000
+[2016.04.20-09.40.15:668][918]LogNet: Join request: /Game/Maps/1v1v1?SplitscreenCount=1
+[2016.04.20-09.40.15:669][918]LogNet: Join succeeded: 257
+[2016.04.20-09.40.18:503][  4]LogActor:Warning: NPCProjectile /Engine/Maps/Entry.Entry:PersistentLevel.NPCProjectile_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
